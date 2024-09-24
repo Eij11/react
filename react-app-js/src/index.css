@@ -1,0 +1,161 @@
+/* ================================ CARD ================================= */
+
+.card {
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.173);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card-image {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.895);
+}
+
+.card .card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(71, 71, 71, 0.756);
+}
+
+/* ================================ BUTTON ================================= */
+/* External CSS */
+/* .btn {
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+} */
+
+/* ================================ PROPS ================================= */
+.student {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10xp;
+  border: 1px solid hsla(0, 0%, 50%, 0.797);
+
+  max-width: 250px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.student p {
+  margin: 4px;
+}
+
+/* ================================ Conditional Rendering ================================= */
+/* div {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+} */
+.welcome-message {
+  font-size: 2.5em;
+  background-color: hsla(84, 100%, 59%, 0.762);
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.login-message {
+  font-size: 2.5em;
+  background-color: hsla(0, 100%, 59%, 0.762);
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+/* ================================ RenderList: ReusableList ================================= */
+.container-reusableList {
+  border: solid 2px black;
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 20px;
+  max-width: 250px;
+  padding: 10px;
+}
+.list-category {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+
+  /* border: solid 2px black; */
+
+  padding: 0; /* Adjust padding */
+  margin-bottom: 20px; /* Reduce bottom margin */
+}
+
+.list-items {
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin: 0;
+}
+
+.list-items li:hover {
+  color: rgba(76, 76, 217, 0.781);
+  cursor: pointer;
+}
+
+/* ================================ UseStae: Counter ================================= */
+.container-counter {
+  border: solid 2px black;
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: auto;
+  max-width: 250px;
+  padding: 10px;
+}
+
+.h1-counter {
+  text-align: center;
+}
+.container-btn-counter {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically */
+  gap: 10px; /* Add spacing between the buttons */
+}
+.btn-counter {
+  background-color: hsla(200, 60%, 32%, 0.874);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100px; /* Set a fixed width */
+  height: 30px; /* Set a fixed height */
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+}
+
+/* Hover effects for different buttons */
+.btn-counter.decrement:hover {
+  background-color: hsla(0, 67%, 47%, 0.874);
+}
+
+.btn-counter.reset:hover {
+  background-color: hsla(180, 2%, 23%, 0.874);
+}
+
+.btn-counter.increment:hover {
+  background-color: hsla(103, 66%, 39%, 0.874);
+}
+
+.box {
+  border: 3px solid;
+  padding: 25px;
+}

@@ -1,0 +1,77 @@
+.container_toDoList {
+  border: solid 2px black;
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: auto;
+  /* max-width: 550px; */
+  padding: 20px;
+  padding-bottom: 50px;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+h1 {
+  font-size: 3em;
+}
+
+button {
+  font-size: small;
+  padding: 5px 10px;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.btn_add {
+  padding: 11px 15px;
+}
+.btn_add:hover {
+  background-color: hsl(120, 84%, 48%);
+  font-weight: bold;
+}
+
+.btn_delete:hover {
+  background-color: hsl(355, 84%, 48%);
+  font-weight: bold;
+}
+
+.btn_move:hover {
+  background-color: hsl(47, 84%, 48%);
+}
+
+input[type="text"] {
+  font-size: 0.8rem;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+li {
+  border: solid 2px rgba(213, 213, 213, 0.324);
+  border-radius: 5px;
+  background-color: rgba(219, 219, 219, 0.239);
+  margin-bottom: 10px;
+  padding: 10px 100px;
+
+  display: flex;
+  align-items: center;
+}
+
+.task_text {
+  flex: 1;
+}
+
+.btn_delete,
+.btn_move {
+  padding: 8px 12px;
+  margin-left: 5px;
+}

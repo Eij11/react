@@ -1,0 +1,27 @@
+.navbar-test {
+  z-index: 1030; /* Bootstrap default for navbar */
+  background-color: transparent;
+  /* position: absolute; Make the navbar float over the image */
+  /* top: 0; */
+  /* width: 100%; */
+}
+
+/* Remove the default border */
+.navbar-toggler {
+  border: none;
+  background: transparent;
+}
+
+/* Customize the icon's color */
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba(228, 9, 60)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.hero-image {
+  background-image: url("https://news.cgtn.com/news/3d3d774e314d444e34457a6333566d54/img/aa2cabebf2924e9f912ebb8eb1df796d/aa2cabebf2924e9f912ebb8eb1df796d.jpg"); /* Your image URL */
+  height: 100vh; /* Full height of the viewport */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

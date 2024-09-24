@@ -1,0 +1,30 @@
+body {
+  background-image: url(D:\Eljon\VsCode\React\react-app-js\src\assets\anime-bg.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.container_clock {
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* makes background of the cointainer vlurry */
+  /* backdrop-filter: blur(5px); */
+  width: 100vw;
+
+  background-color: rgba(10, 76, 120, 0.356);
+  padding: 10px 0;
+}
+
+.clock {
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+}
